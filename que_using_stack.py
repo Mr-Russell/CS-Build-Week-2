@@ -62,8 +62,3 @@ class MyQueue:
       return False
     else:
       return True
-
-
-
-
-
