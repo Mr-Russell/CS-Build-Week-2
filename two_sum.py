@@ -22,6 +22,7 @@ def twoSum(nums, target):
     if diff in cache:
       output.append(cache[diff])
       output.append(i)
-      return output
     else:
       cache[nums[i]] = i
+      
+  return output
